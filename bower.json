@@ -1,0 +1,28 @@
+{
+  "name": "realtime",
+  "authors": [
+    "meche <me@callmemeche.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "firebase": "~2.3.1",
+    "angularfire": "~1.1.3",
+    "font-awesome": "~4.4.0",
+    "ng-img-crop": "ngImgCrop#~0.3.2",
+    "bootswatch": "~3.3.5+4",
+    "toastr": "~2.1.2"
+  }
+}
