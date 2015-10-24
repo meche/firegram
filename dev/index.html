@@ -14,14 +14,7 @@
     <link rel="stylesheet" href="../custom_components/css/styles.css"/>
 </head>
 <body>
-	<h1>Olá Mundo</h1>
-	<nav>
-		<ul>
-			<li><a href="#/">Home</a></li>
-			<li><a href="#/post">Post</a></li>
-			<li><a href="#/login">Login</a></li>
-		</ul>
-	</nav>
+	<div ng-include="'pages/shared/header.html'" scope="" onload=""></div>
 	<div class="container" ng-view></div>
 
 	<script src="../bower_components/jquery/dist/jquery.js"></script>
