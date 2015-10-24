@@ -7,25 +7,31 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Cache-Control: max-age=3600, must-revalidate"/>
     <meta name="description" content="Firengram">
-    <title>Fire{ng}ram</title>
+    <title>Firegram</title>
     <link rel="stylesheet" href="../bower_components/bootswatch/paper/bootstrap.css"/>
     <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
     <link rel="stylesheet" href="../bower_components/ng-Img-Crop/compile/minified/ng-img-crop.css"/>
     <link rel="stylesheet" href="../custom_components/css/styles.css"/>
 </head>
 <body>
-<h1>Olá Mundo</h1>
+	<h1>Olá Mundo</h1>
 
-<script src="../bower_components/jquery/dist/jquery.js"></script>
-<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script src="../bower_components/angular/angular.js"></script>
-<script src="../bower_components/angular-route/angular-route.js"></script>
-<script src="../bower_components/firebase/firebase.js"></script>
-<script src="../bower_components/angularfire/dist/angularfire.js"></script>
-<script src="../bower_components/ng-Img-Crop/compile/minified/ng-img-crop.js"></script>
+	<div ng-controller="HomeCtrl">
+		<ul>
+			<li ng-repeat="item in messages">{{ item.message }}</li>
+		</ul>
+	</div>
 
-<script>
-  angular.module('insta', ['ngRoute', 'firebase', 'ngImgCrop']);
-</script>
+	<script src="../bower_components/jquery/dist/jquery.js"></script>
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="../bower_components/angular/angular.js"></script>
+	<script src="../bower_components/angular-route/angular-route.js"></script>
+	<script src="../bower_components/firebase/firebase.js"></script>
+	<script src="../bower_components/angularfire/dist/angularfire.js"></script>
+	<script src="../bower_components/ng-Img-Crop/compile/minified/ng-img-crop.js"></script>
+
+	<script src="../app/app.js"></script>
+	<script src="../app/config.js"></script>
+	<script src="../app/controllers/home-controller.js"></script>
 </body>
 </html>
