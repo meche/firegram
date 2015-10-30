@@ -4,7 +4,7 @@ Aula de Aplicações Real Time com André Baltieri
 ####Aplicação criada com Angular.js e Firebase
 
 
-2:54:00 Parei de ver o vídeo, continuar daqui!
+3:06:00 Parei de ver o vídeo, continuar daqui!
 
 
 ```
